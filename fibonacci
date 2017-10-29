@@ -1,0 +1,29 @@
+
+public class Fibonacci {
+	public static void main(String[] args) {
+		
+		int dizi[]=new int[10];
+		int i=1;
+		dizi[0]=1;
+		dizi[1]=1;
+		for(;i<dizi.length;i++)
+		{
+			dizi[i]=dizi[0]+dizi[i];
+			
+		}
+		for(int j=0;j<=dizi.length;j++)
+		{
+			System.out.println(dizi[j]);
+		}
+	
+	}
+
+}
+/*
+		fib0=1
+fib1=1
+fib2=fib0 + fib1 = 1 + 1 = 2
+fib3=fib1 + fib2 = 1 + 2 = 3
+fib4=fib2 + fib3 = 2 + 3 = 5
+		
+*/
